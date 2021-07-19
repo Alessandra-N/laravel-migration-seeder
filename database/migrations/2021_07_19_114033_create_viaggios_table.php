@@ -20,7 +20,7 @@ class CreateViaggiosTable extends Migration
             $table->string("hotel")->nullable();
             $table->string("valutazione")->nullable();
             $table->decimal("prezzo")->nullable();
-            $table->string("descrizione")->nullable();
+            $table->text("descrizione")->nullable();
             $table->timestamps();
         });
     }

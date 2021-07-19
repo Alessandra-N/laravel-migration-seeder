@@ -17,10 +17,10 @@
             <tr>
                 <td>{{$viaggio->destinazione}}</td>
                 <td><img src="{{$viaggio->img}}" alt=""></td>
-                <td>{{$viaggio->hotel}}$</td>
-                <td>{{$viaggio->valutazione}}$</td>
+                <td>{{$viaggio->hotel}}</td>
+                <td>{{$viaggio->valutazione}}</td>
                 <td>{{$viaggio->prezzo}}$</td>
-                <td>{{$viaggio->descrizione}}$</td>
+                <td>{{$viaggio->descrizione}}</td>
 
                 <td>
                     <a href="{{route('viaggio.show', $viaggio->id)}}">View</a> 

@@ -1,0 +1,19 @@
+header {
+    background-color: rgb(151, 87, 64);
+    .header_container {
+        height: 15vh;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            height: 100px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    }
+    
+}

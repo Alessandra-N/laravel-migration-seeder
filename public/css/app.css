@@ -1,0 +1,145 @@
+header {
+  background-color: #975740;
+}
+
+header .header_container {
+  height: 15vh;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header_container img {
+  height: 100px;
+}
+
+header .header_container a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home_container {
+  width: 90%;
+  margin: auto;
+}
+
+.home_container .card_viaggio {
+  width: 100%;
+  margin: 0.5rem;
+  padding: 2rem;
+  border: 1px solid coral;
+  border-radius: 10px;
+  background-color: #f0c1b0;
+  display: flex;
+  align-items: center;
+}
+
+.home_container .card_viaggio .destinazione {
+  color: #975740;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home_container .card_viaggio .destinazione h1 {
+  font-size: 20px;
+}
+
+.home_container .card_viaggio .destinazione img {
+  margin-bottom: 1rem;
+  height: 200px;
+  width: 200px;
+}
+
+.home_container .card_viaggio .descrizione {
+  padding: 0 2rem;
+}
+
+.home_container .card_viaggio .valutazione {
+  text-align: end;
+  width: 30%;
+}
+
+.container_index {
+  margin: auto;
+  height: 75vh;
+  overflow: auto;
+  margin-bottom: 2rem;
+  border: 2px solid black;
+}
+
+.container_index table th {
+  border: 2px solid black;
+  padding: 1rem 0;
+}
+
+.container_index table th:first-child,
+.container_index table th:last-child {
+  width: 10%;
+}
+
+.container_index table td {
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.container_index table td button {
+  margin-top: 1rem;
+}
+
+.container_index table img {
+  width: 200px;
+}
+
+.show_container {
+  width: 80%;
+  margin: 2rem auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show_container .card_viaggio {
+  margin: 0.5rem;
+  padding: 2rem;
+  border: 1px solid coral;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.show_container .card_viaggio .destinazione {
+  color: #975740;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.show_container .card_viaggio .destinazione h1 {
+  font-size: 20px;
+}
+
+.show_container .card_viaggio .destinazione img {
+  margin-bottom: 1rem;
+  height: 200px;
+  width: 200px;
+}
+
+.show_container .card_viaggio .descrizione {
+  padding: 0 2rem;
+}
+
+.show_container .card_viaggio .valutazione {
+  text-align: end;
+  width: 30%;
+}
+
+.show_container .links a {
+  margin-right: 2rem;
+}
+

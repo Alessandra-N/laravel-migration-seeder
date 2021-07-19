@@ -80,7 +80,7 @@ class ViaggioController extends Controller
     public function update(Request $request, Viaggio $viaggio)
     {
         $viaggio->update($request->all());
-        return redirect()->route('index');
+        return redirect()->route('viaggio.index');
     }
 
     /**
@@ -92,6 +92,6 @@ class ViaggioController extends Controller
     public function destroy(Viaggio $viaggio)
     {
         $viaggio->delete();
-        return redirect()->route('index');
+        return redirect()->route('viaggio.index');
     }
 }

@@ -39,7 +39,7 @@
 
     </div>
       <div class="button">
-        <a href="{{route('index')}}">Torna all'index</a>
+        <a href="{{route('viaggio.index')}}">Torna all'index</a>
       </div>
   </div>
 @endsection
