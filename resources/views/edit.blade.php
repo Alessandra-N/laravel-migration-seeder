@@ -16,7 +16,7 @@
         <small id="helpId" class="text-muted">inserisci link immagine</small>
 
         <label for=""></label>
-        <input type="text" name="hotel" id="hotel" class="form-control" placeholder="" aria-describedby="helpId" value="{{$viaggio->hotel}}>
+        <input type="text" name="hotel" id="hotel" class="form-control" placeholder="" aria-describedby="helpId" value="{{$viaggio->hotel}}">
         <small id="helpId" class="text-muted">inserisci hotel</small>
 
         <label for=""></label>
@@ -28,7 +28,7 @@
         <small id="helpId" class="text-muted">inserisci il prezzo</small>
 
         <label for=""></label>
-        <input type="text" name="descrizione" id="descrizione" class="form-control" placeholder="" aria-describedby="helpId" value="{{$viaggio->descrizione}}">
+        <textarea name="descrizione" id="descrizione" class="form-control" placeholder="" aria-describedby="helpId" rows="5" value="">{{$viaggio->descrizione}}</textarea>
         <small id="helpId" class="text-muted">inserisci descrizione</small>
 
         <div class="submit">

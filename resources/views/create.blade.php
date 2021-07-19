@@ -27,7 +27,7 @@
         <small id="helpId" class="text-muted">inserisci il prezzo</small>
 
         <label for=""></label>
-        <input type="text" name="descrizione" id="descrizione" class="form-control" placeholder="" aria-describedby="helpId">
+        <textarea name="descrizione" id="descrizione" class="form-control" placeholder="" aria-describedby="helpId" rows="5" value=""></textarea>
         <small id="helpId" class="text-muted">inserisci descrizione</small>
 
         <div class="submit">

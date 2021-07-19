@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'ViaggioController@index')->name('index');
 
+Route::get('/', 'PageController@homepage')->name('homepage');
 Route::resource('viaggio', 'ViaggioController');
