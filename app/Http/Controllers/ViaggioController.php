@@ -14,7 +14,8 @@ class ViaggioController extends Controller
      */
     public function index()
     {
-        //
+        $viaggi = Viaggio::all();
+        return view('index', compact('viaggi'));
     }
 
     /**
@@ -24,7 +25,7 @@ class ViaggioController extends Controller
      */
     public function create()
     {
-        //
+        return view('create');
     }
 
     /**
@@ -35,7 +36,16 @@ class ViaggioController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $viaggio = new Viaggio();
+        $viaggio->destinazione = $request->destinazione;
+        $viaggio->img = $request->img;
+        $viaggio->hotel = $request->hotel;
+        $viaggio->valutazione = $request->valutazione;
+        $viaggio->prezzo = $request->prezzo;
+        $viaggio->descrizione = $request->descrizione;
+        $viaggio->save();
+
+        return redirect('create');
     }
 
     /**
