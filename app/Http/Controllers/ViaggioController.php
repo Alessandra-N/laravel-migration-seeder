@@ -91,6 +91,7 @@ class ViaggioController extends Controller
      */
     public function destroy(Viaggio $viaggio)
     {
-        //
+        $viaggio->delete();
+        return redirect()->route('index');
     }
 }
