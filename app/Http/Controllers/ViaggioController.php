@@ -67,7 +67,7 @@ class ViaggioController extends Controller
      */
     public function edit(Viaggio $viaggio)
     {
-        //
+        return view('edit', compact('viaggio'));
     }
 
     /**
@@ -79,7 +79,8 @@ class ViaggioController extends Controller
      */
     public function update(Request $request, Viaggio $viaggio)
     {
-        //
+        $viaggio->update($request->all());
+        return redirect()->route('index');
     }
 
     /**
