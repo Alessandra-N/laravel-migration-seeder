@@ -7,8 +7,8 @@
 <h1>Destinazioni</h1>
 @foreach($viaggi as $viaggio)
 
+<a href="{{route('viaggio.show', $viaggio->id)}}">{{$viaggio->destinazione}}</a>
 
-<h2>{{$viaggio->destinazione}}</h2>
 
 @endforeach
 

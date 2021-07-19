@@ -45,7 +45,7 @@ class ViaggioController extends Controller
         $viaggio->descrizione = $request->descrizione;
         $viaggio->save();
 
-        return redirect('create');
+        return redirect('viaggio/create');
     }
 
     /**
@@ -56,7 +56,7 @@ class ViaggioController extends Controller
      */
     public function show(Viaggio $viaggio)
     {
-        //
+        return view('show', compact('viaggio'));
     }
 
     /**
